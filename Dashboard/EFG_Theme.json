@@ -1,0 +1,109 @@
+{
+  "name": "EFG Green & White Theme",
+  "dataColors": [
+    "#059669",
+    "#0EA5E9",
+    "#7C3AED",
+    "#F97316",
+    "#F43F5E",
+    "#6B7280",
+    "#10B981",
+    "#06B6D4"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#059669",
+  "good": "#059669",
+  "neutral": "#EAB308",
+  "bad": "#EF4444",
+  "maximum": "#059669",
+  "center": "#EAB308",
+  "minimum": "#EF4444",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2937"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2937"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2937"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7280"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "general": [
+          {
+            "responsive": true
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#E5E7EB" } },
+            "show": true
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#1F2937" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F0FDF4" } },
+            "transparency": 50
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#065F46" } },
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#6B7280" } },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [
+          {
+            "outlineColor": { "solid": { "color": "#059669" } }
+          }
+        ]
+      }
+    }
+  }
+}
